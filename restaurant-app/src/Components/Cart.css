@@ -1,0 +1,21 @@
+.carttitle {
+    font-size: 60px;
+    text-align:center;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 3px 3px 6px rgb(233, 182, 88); 
+    margin:5% 0 3% 0;
+    animation: order-load 2s ease;
+       
+}
+
+/* button {
+    font-style: 0.8rem;
+    padding: 0.2rem;
+    margin:0.1rem;
+    border-radius:0.5rem;
+    border: 0.1rem #404040 solid;
+    background-color: #f0c040;
+    width:100%;
+    cursor:pointer;
+} */

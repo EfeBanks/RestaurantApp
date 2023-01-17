@@ -1,0 +1,52 @@
+.bg {
+    
+    background: url(../images/burger3.jpg);
+    height: 90vh;
+    width: 100vw;
+    display:flex;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tt {
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.title {
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom:30px;
+    text-shadow: 3px 6px 6px rgb(192, 157, 92);
+    font-family: cursive;
+    
+}
+
+.text {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    
+}
+
+ .orderBtn {
+    background-color: red;
+    color:white;
+    text-align: center;
+    width:15%;
+    height: 10%;
+    padding-top: 1%;
+    margin-right:40px;
+    border-radius: 10px;
+    margin-top:30px;
+    
+     
+}
+
+
+.orderBtn:hover {
+    font-weight: bold;
+    background: linear-gradient(to right, #048420, #bffc6b);
+}

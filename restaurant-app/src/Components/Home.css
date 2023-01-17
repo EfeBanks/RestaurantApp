@@ -1,0 +1,126 @@
+.bg {
+    background: url(../images/burger3.jpg);
+    height: 90vh;
+    width: 100vw;
+    display:flex;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: body-load 1s ease-in 400ms;
+    animation-fill-mode: forwards; 
+    transform: translateY(-30px);
+    opacity:0;      
+}
+
+@keyframes body-load {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.tt {
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.title {
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom:30px;
+    text-shadow: 3px 6px 6px rgb(192, 157, 92);
+    font-family: cursive;
+    animation: heading-load 2s ease-in-out 320ms;
+    
+}
+
+@keyframes heading-load {
+    0% {
+        transform: translateX(-120%);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
+
+.text {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin-bottom: 6%;
+    
+}
+
+.i-title{
+    height: 80px;
+    overflow: hidden;
+}
+
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite /* alternate */;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-80px);
+    }
+    50%{
+        transform: translateY(-160px);
+    }
+    75%{
+        transform: translateY(-240px);
+    }
+    100%{
+        transform: translateY(-320px);
+    }
+}
+
+.i-title-item{
+    height: 80px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #17bb14; 
+    display: flex;
+    align-items: center;
+}
+
+ .orderBtn {
+    background-color: red;
+    color:white;
+    text-align: center;
+    width:15%;
+    height: 10%;
+    padding-top: 1%;
+    margin-right:40px;
+    border-radius: 10px;
+    margin-top:30px;
+        
+}
+
+
+.orderBtn:hover {
+    font-weight: bold;
+    background: linear-gradient(to right, #048420, #bffc6b);
+}
+
+
+/* For Animation
+div {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+div {
+    animation: example 5s linear 2s infinite alternate;
+} */

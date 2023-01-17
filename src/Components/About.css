@@ -1,0 +1,113 @@
+
+.topA {
+    width:100vw;
+    height: 80vh;
+    background: url('../images/veggie.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50%;
+       
+}
+.headingtopA {
+    margin-top: 30%;
+    margin-left: 3%;
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-shadow: 3px 3px 6px rgb(233, 182, 88);  
+    font-family:cursive; 
+    animation: about-load 1500ms ease-in-out; 
+    
+}
+
+
+@keyframes about-load {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
+
+
+.bgA {    
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+
+}
+
+.containerA {
+    
+    background: linear-gradient(to right, #025213, #bffc6b);
+    display:flex;
+    justify-content: space-between;
+    padding: 5% 5% 0% 5%;
+}
+
+.leftA{
+  width:50%;
+  margin:5% 0 0 5%;
+  
+  
+}
+
+.rightA{
+    width: 50%;
+    padding: 5% 0% 10% 5%;
+          
+}
+
+.headingA {
+text-transform:uppercase;
+font-family:sans-serif;
+padding:20px 0;
+margin-top:-5%;
+font-weight: bold;
+font-family:cursive;
+text-shadow: 3px 3px 6px rgb(233, 182, 88);
+
+}
+
+p {
+    font-family:sans-serif;
+    line-height: 25px;
+    padding-right:10px;
+    
+}
+.firstA {
+    font-size:26px;
+    color:rgb(230, 229, 229);
+    margin-bottom:22px;
+}
+.secondA {
+    font-size:20px;
+}
+
+.leftA img {
+    width:70%;
+    height:70vh;
+    text-align:center; 
+    border:5px solid #025213;  
+    
+}
+
+@media screen and (max-width: 768px){
+    .containerA {
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    .rightA {
+        overflow:scroll;
+        width:100%;
+        
+    }
+    .leftA {
+        width:100%;
+        
+    }
+}

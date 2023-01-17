@@ -1,0 +1,66 @@
+.bgM {
+    width: 100%;
+   
+
+}
+.menutitle {
+    font-size: 60px;
+    text-align:center;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 3px 3px 6px rgb(233, 182, 88); 
+    margin:5% 0 3% 0;
+    animation: menu-load 2s ease-in-out;
+       
+}
+
+@keyframes menu-load {
+    0% {
+        transform:rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg);
+    } 
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+        border: 2px solid rgb(181, 178, 178);
+        margin:2px;
+        box-shadow:3px 10px 6px gray;
+    
+    
+}
+.card-body {
+    text-align: center;
+}
+.card-title {
+    color:green;
+}
+
+/* Menu Category Styles */
+.categoryM4 {
+    padding:0 0 3% 13%;
+    font-size:30px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color:green;
+    text-shadow: 1px 1px 2px rgb(233, 182, 88);
+}
+
+button.btn {
+    font-size:14px;
+
+}
+
+.imgCard {
+    height: 400px;
+    width:100%;
+  
+}

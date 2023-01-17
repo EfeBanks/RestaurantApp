@@ -1,0 +1,17 @@
+.searchbox {
+        height: 60px;
+        width: 30%;
+        border:none;
+        font-size:20px;
+        color:black;
+        margin-left:40%;
+        padding-left: 1%;
+    
+}
+.containerM {
+        height:850px;
+        font-size:20px;
+        line-height: 200%;
+        
+
+}
